@@ -1,6 +1,6 @@
 <?php
 
-function  __autoload($classname){
+function __autoload($classname){
 	include_once("c/$classname.php");
 }
 
